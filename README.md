@@ -174,9 +174,7 @@ Example:
 ```
 ## 📸 Project Preview
 
-<p align="center">
-  <img src="./images/101.jpg" width="90%">
-</p>
+![image_alt](!https://babymakersivf.com/images/doc.png)
 
 <p align="center">
   <img src="/images/102.jpg" width="45%">
