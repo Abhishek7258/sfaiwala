@@ -171,7 +171,7 @@ The booking form allows customers to:
 
 Example:
 <img src="/sfaiwala/public/images/101.jpg" height="80%" >
-![Doctor](https://babymakersivf.com/images/doc.png)
+
 
 ```
 ## 📸 Project Preview
