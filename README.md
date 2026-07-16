@@ -174,7 +174,7 @@ Example:
 ```
 ## 📸 Project Preview
 
-![Doctor](https://babymakersivf.com/images/doc.png)
+![Doctor](https://github.com/Abhishek7258/sfaiwala/blob/main/2.png?raw=true)
 
 
 ## 🔮 Future Improvements
