@@ -72,7 +72,7 @@ src/
 ```
 
 ---
-
+ ![Image Alt](https://babymakersivf.com/images/doc.png)
 ## 🚀 Installation
 
 Clone the repository
@@ -176,7 +176,11 @@ Example:
 ```
 ## 📸 Project Preview
 
+<<<<<<< HEAD
 
+=======
+![Doctor](https://github.com/Abhishek7258/sfaiwala/blob/main/2.png?raw=true)
+>>>>>>> 5643aad0b7d3b923c9a5d6527b96a7b1c23e37a8
 
 
 ## 🔮 Future Improvements
