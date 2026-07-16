@@ -174,20 +174,8 @@ Example:
 ```
 ## 📸 Project Preview
 
-![image_alt](!https://babymakersivf.com/images/doc.png)
+![Doctor](https://babymakersivf.com/images/doc.png)
 
-<p align="center">
-  <img src="/images/102.jpg" width="45%">
-  <img src="./images/booking.png" width="45%">
-</p>
-
-<p align="center">
-  <img src="./103.png" width="45%">
-  <img src="/106.png" width="45%">
-</p>
-```
-
----
 
 ## 🔮 Future Improvements
 
