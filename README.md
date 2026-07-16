@@ -170,11 +170,13 @@ The booking form allows customers to:
 > Add screenshots of your homepage, services page, booking form, and mobile view here.
 
 Example:
+<img src="/sfaiwala/public/images/101.jpg" height="80%" >
+![Doctor](https://babymakersivf.com/images/doc.png)
 
 ```
 ## 📸 Project Preview
 
-![Doctor](https://babymakersivf.com/images/doc.png)
+
 
 
 ## 🔮 Future Improvements
