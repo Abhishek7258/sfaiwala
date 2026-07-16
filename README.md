@@ -172,7 +172,7 @@ The booking form allows customers to:
 Example:
 
 ```
-# 📸 Project Preview
+## 📸 Project Preview
 
 <p align="center">
   <img src="./images/101.jpg" width="90%">
