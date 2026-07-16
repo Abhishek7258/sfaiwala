@@ -172,11 +172,21 @@ The booking form allows customers to:
 Example:
 
 ```
-images/
-├── 101.jpg
-├── grass.jpg
-├── booking.png
-└── mobile.png
+# 📸 Project Preview
+
+<p align="center">
+  <img src="./images/101.jpg" width="90%">
+</p>
+
+<p align="center">
+  <img src="/images/102.jpg" width="45%">
+  <img src="./images/booking.png" width="45%">
+</p>
+
+<p align="center">
+  <img src="./103.png" width="45%">
+  <img src="/106.png" width="45%">
+</p>
 ```
 
 ---
