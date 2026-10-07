@@ -1,257 +1,55 @@
-# 🧹 SFAIWALA – Professional Cleaning Service Website
+# 🤖 SFAIwala
 
-A modern, responsive, and user-friendly cleaning service website built using **React.js** and **Vite**. The website allows customers to explore cleaning services, book appointments, contact the business through WhatsApp, and submit booking inquiries via an integrated contact form.
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,100:0891b2&height=180&section=header&text=SFAIwala&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35" alt="SFAIwala banner"/></p>
 
----
+<p align="center"><b>A modern Vite-based frontend project with a component-driven application structure.</b></p>
 
-## 📌 Project Overview
+<p align="center"><img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white"/> <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=111827"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=111827"/></p>
 
-**SFAIWALA** is a professional cleaning service platform designed to provide a seamless online experience for customers looking for residential and commercial cleaning services.
+## 🧠 Overview
+SFAIwala is organized as a modern frontend application using Vite, with application code under `src/` and static/public assets under `public/`. The structure makes it straightforward to develop, preview and deploy as a web application.
 
-The website focuses on:
-
-- Clean and modern UI/UX
-- Fast performance with React + Vite
-- Mobile responsive design
-- Easy service booking
-- WhatsApp integration for instant communication
-- Contact form for customer inquiries
-
----
-
-## ✨ Features
-
-- 🏠 Professional Landing Page
-- 📱 Fully Responsive Design
-- 🧹 Cleaning Services Showcase
-- 📅 Booking Form
-- 💬 WhatsApp Integration
-- 📞 Contact Section
-- ⚡ Fast Loading with Vite
-- 🎨 Modern UI Components
-- 📍 Service Information
-- 🔥 Smooth Navigation
-- 📧 Customer Inquiry Form
-- 📱 Mobile Friendly Layout
-
----
-
-## 🛠️ Tech Stack
-
-### Frontend
-
-- React.js
-- Vite
-- JavaScript (ES6+)
-- HTML5
-- CSS3
-
-### Tools
-
-- npm
-- Git
-- GitHub
-- VS Code
-
----
-
-## 📂 Project Structure
-
-```
-src/
-│
-├── assets/          # Images, icons and static assets
-├── components/      # Reusable UI components
-├── pages/           # Website pages
-├── utility/         # Utility/helper functions
-│
-├── App.jsx
-├── main.jsx
-├── App.css
-└── index.css
+## 📁 Structure
+```text
+sfaiwala/
+├── public/          # Static public assets
+├── src/             # Application components and logic
+├── package.json     # Scripts and dependencies
+├── package-lock.json
+├── vite.config.js   # Vite configuration
+└── README.md
 ```
 
----
- ![Image Alt](https://babymakersivf.com/images/doc.png)
-## 🚀 Installation
+## 🔄 Development Flow
+```mermaid
+graph LR
+A[Source Code] --> B[Vite Dev Server]
+B --> C[Browser]
+C --> D[UI Feedback]
+D --> A
+```
 
-Clone the repository
-
+## 🚀 Getting Started
 ```bash
-git clone https://github.com/yourusername/sfaiwala.git
-```
-
-Go to the project directory
-
-```bash
+git clone https://github.com/Abhishek7258/sfaiwala.git
 cd sfaiwala
-```
-
-Install dependencies
-
-```bash
 npm install
-```
-
-Start the development server
-
-```bash
 npm run dev
 ```
 
-Open your browser
+Build for production with the script defined in `package.json` (commonly `npm run build`) and preview the generated build using the project's preview script.
 
-```
-http://localhost:5173
-```
+## 🎨 UI Documentation
+For the best README presentation, add real screenshots from the running application under `docs/screenshots/`. Suggested views are desktop home, key feature/page, and mobile layout.
 
----
-
-## 📦 Build for Production
-
-```bash
-npm run build
-```
-
-Preview production build
-
-```bash
-npm run preview
-```
-
----
-
-## 📱 Responsive Design
-
-The website is optimized for:
-
-- Desktop
-- Laptop
-- Tablet
-- Mobile Devices
-
----
-
-## 💬 WhatsApp Integration
-
-Customers can instantly connect with the cleaning service through WhatsApp for:
-
-- Booking Services
-- Price Inquiry
-- Customer Support
-- Quick Communication
-
----
-
-## 📋 Booking Form
-
-The booking form allows customers to:
-
-- Enter personal details
-- Select required service
-- Submit inquiries
-- Request cleaning appointments
-
----
-
-## 🎯 Performance
-
-- Fast Vite Development Server
-- Optimized React Components
-- Reusable Code Structure
-- Lightweight Assets
-- Responsive Layout
-- Smooth User Experience
-
----
-
-## 📸 Screenshots
-
-> Add screenshots of your homepage, services page, booking form, and mobile view here.
-
-Example:
-<img src="/sfaiwala/public/images/101.jpg" height="80%" >
-
-
-```
-## 📸 Project Preview
-
-<<<<<<< HEAD
-
-=======
-![Doctor](https://github.com/Abhishek7258/sfaiwala/blob/main/2.png?raw=true)
->>>>>>> 5643aad0b7d3b923c9a5d6527b96a7b1c23e37a8
-
-
-## 🔮 Future Improvements
-
-- Online Payment Integration
-- Admin Dashboard
-- Booking Management System
-- User Authentication
-- Email Notifications
-- Customer Reviews
-- Live Chat Support
-- Service Tracking
-- Dark Mode
-
----
+## 🧹 Code Quality
+Use the linting script defined by `package.json` before opening a pull request. Keep components focused and avoid committing generated build output or local environment files.
 
 ## 🤝 Contributing
-
-Contributions are welcome!
-
-1. Fork the repository
-2. Create a new branch
-
-```bash
-git checkout -b feature-name
-```
-
-3. Commit your changes
-
-```bash
-git commit -m "Added new feature"
-```
-
-4. Push to your branch
-
-```bash
-git push origin feature-name
-```
-
-5. Create a Pull Request
-
----
+1. Create a feature branch.
+2. Make focused changes.
+3. Run lint/build checks.
+4. Open a pull request with screenshots for UI changes.
 
 ## 📄 License
-
-This project is developed for a client and is intended for portfolio and demonstration purposes unless otherwise specified.
-
----
-
-## 👨‍💻 Developer
-
-**Abhishek Kumar**
-
-Frontend Developer | MERN Stack Developer
-
-- React.js
-- JavaScript
-- Node.js
-- Express.js
-- MongoDB
-
-GitHub: https://github.com/Abhishek7258
-
-LinkedIn: https://www.linkedin.com/in/abhishek-kumar-588513268/
-
----
-
-## ⭐ Support
-
-If you found this project helpful, consider giving it a ⭐ on GitHub.
-
----
-
-### Built with ❤️ using React + Vite
+No license file is currently declared.
