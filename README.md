@@ -1,35 +1,53 @@
-# 🤖 SFAIwala
+# SFAIwala — Cleaning Services Website
 
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,100:0891b2&height=180&section=header&text=SFAIwala&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35" alt="SFAIwala banner"/></p>
+A responsive, multi-page marketing website for a home and commercial cleaning service. Visitors can browse the service catalogue, read about the business, and send an enquiry that opens a pre-filled WhatsApp message to the business.
 
-<p align="center"><b>A modern Vite-based frontend project with a component-driven application structure.</b></p>
+Built with **React 19**, **Vite 7**, **Tailwind CSS 4** and **React Router 7**.
 
-<p align="center"><img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white"/> <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=111827"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=111827"/></p>
+## Features
 
-## 🧠 Overview
-SFAIwala is organized as a modern frontend application using Vite, with application code under `src/` and static/public assets under `public/`. The structure makes it straightforward to develop, preview and deploy as a web application.
+- **Five routes:** Home (`/`), About (`/about`), Services (`/service`), Contact (`/contact`) and a booking Form (`/form`)
+- **Service catalogue** covering 20+ services, including deep home, kitchen, bathroom, sofa, carpet, mattress, water-tank, office and hotel cleaning
+- **Enquiry and booking forms** that build a message and open WhatsApp (`wa.me`) with the details pre-filled, so no backend is needed
+- **Floating WhatsApp button** available across the site
+- **Image slider** and work gallery on the home page
+- **Embedded map** on the contact page
+- Scroll-to-top on route change, shared Navbar and Footer
+- Linting with ESLint 9 (React Hooks and React Refresh rules)
 
-## 📁 Structure
+## Tech stack
+
+| Area | Tools |
+|---|---|
+| UI | React `^19.1.0`, React DOM `^19.1.0` |
+| Routing | React Router DOM `^7.7.0` |
+| Styling | Tailwind CSS `^4.1.11` (via `@tailwindcss/vite`) |
+| Icons | Lucide React `^0.525.0`, Remix Icon `^4.6.0` |
+| Build tool | Vite `^7.0.4`, `@vitejs/plugin-react` `^4.6.0` |
+| Linting | ESLint `^9.30.1` |
+
+## Project structure
+
 ```text
 sfaiwala/
-├── public/          # Static public assets
-├── src/             # Application components and logic
-├── package.json     # Scripts and dependencies
-├── package-lock.json
-├── vite.config.js   # Vite configuration
-└── README.md
+├── public/images/        # Service and gallery images, logo
+├── src/
+│   ├── components/       # Navbar, Footer, Slider, Work, ScrollToTop
+│   ├── pages/            # Home, About, Service, Contact, Form
+│   ├── utility/          # Button, Map, Whatsapp (floating button)
+│   ├── App.jsx           # Router and layout
+│   ├── main.jsx          # Entry point
+│   └── index.css         # Tailwind entry and global styles
+├── index.html
+├── vite.config.js
+├── eslint.config.js
+└── package.json
 ```
 
-## 🔄 Development Flow
-```mermaid
-graph LR
-A[Source Code] --> B[Vite Dev Server]
-B --> C[Browser]
-C --> D[UI Feedback]
-D --> A
-```
+## Getting started
 
-## 🚀 Getting Started
+Requires Node.js 18 or newer.
+
 ```bash
 git clone https://github.com/Abhishek7258/sfaiwala.git
 cd sfaiwala
@@ -37,19 +55,23 @@ npm install
 npm run dev
 ```
 
-Build for production with the script defined in `package.json` (commonly `npm run build`) and preview the generated build using the project's preview script.
+The dev server runs at http://localhost:5173.
 
-## 🎨 UI Documentation
-For the best README presentation, add real screenshots from the running application under `docs/screenshots/`. Suggested views are desktop home, key feature/page, and mobile layout.
+## Scripts
 
-## 🧹 Code Quality
-Use the linting script defined by `package.json` before opening a pull request. Keep components focused and avoid committing generated build output or local environment files.
+| Command | What it does |
+|---|---|
+| `npm run dev` | Start the Vite dev server |
+| `npm run host` | Start the dev server exposed on your network (test on a phone) |
+| `npm run build` | Create a production build in `dist/` |
+| `npm run preview` | Serve the production build locally |
+| `npm run lint` | Run ESLint |
 
-## 🤝 Contributing
-1. Create a feature branch.
-2. Make focused changes.
-3. Run lint/build checks.
-4. Open a pull request with screenshots for UI changes.
+## Deployment
 
-## 📄 License
-No license file is currently declared.
+`npm run build` outputs a static site in `dist/`, which works on Netlify, Vercel, GitHub Pages or any static host. Because the app uses client-side routing (`BrowserRouter`), configure the host to fall back to `index.html` for unknown paths so refreshing `/service` or `/contact` works.
+
+## Customising
+
+- Services, copy and images live in `src/pages/` and `public/images/`.
+- The business WhatsApp number is set in `src/pages/Form.jsx`, `src/pages/Contact.jsx` and `src/utility/Whatsapp.jsx`. Update all three together.
